@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Openclassrooms-P12/static/css/main.d9564ab7.css",
+    "main.js": "/Openclassrooms-P12/static/js/main.6fa9894e.js",
+    "static/js/787.7da95b79.chunk.js": "/Openclassrooms-P12/static/js/787.7da95b79.chunk.js",
+    "static/media/pi-removebg-preview.png": "/Openclassrooms-P12/static/media/pi-removebg-preview.2db8268baa1d9029df37.png",
+    "static/media/react-logo-1000-transparent.png": "/Openclassrooms-P12/static/media/react-logo-1000-transparent.8f380a30c4573f026c32.png",
+    "static/media/LinkedIn.png": "/Openclassrooms-P12/static/media/LinkedIn.9eaa96f73a0b53a2eace.png",
+    "static/media/webflow_logo_icon_169218.png": "/Openclassrooms-P12/static/media/webflow_logo_icon_169218.765556fa95725d332bb2.png",
+    "static/media/JavaScript-logo.png": "/Openclassrooms-P12/static/media/JavaScript-logo.e4a6603a50d997ebe438.png",
+    "static/media/html5.png": "/Openclassrooms-P12/static/media/html5.0abf26ac279981f780ed.png",
+    "static/media/css.png": "/Openclassrooms-P12/static/media/css.f9094ceee47a1f64d56a.png",
+    "index.html": "/Openclassrooms-P12/index.html",
+    "main.d9564ab7.css.map": "/Openclassrooms-P12/static/css/main.d9564ab7.css.map",
+    "main.6fa9894e.js.map": "/Openclassrooms-P12/static/js/main.6fa9894e.js.map",
+    "787.7da95b79.chunk.js.map": "/Openclassrooms-P12/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9564ab7.css",
+    "static/js/main.6fa9894e.js"
+  ]
+}
