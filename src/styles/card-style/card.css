@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+}
+.card .bod img {
+  width: 100%;
+  height: 100%;
+}
+.card .bod:hover {
+  filter: blur(3px);
+}
+.card .bod:hover ~ .description {
+  display: flex;
+}
+.card .description {
+  color: white;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=card.css.map */

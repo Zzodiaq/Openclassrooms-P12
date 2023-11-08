@@ -1,0 +1,194 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 5rem;
+    background-color: #f5f5f5;
+    // height: 20rem;
+    h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    p {
+        font-style: italic;
+        font-size: large;
+        width: 50%;
+        line-height: 4rem;
+    }
+}
+.line {
+    border-top: 4px solid white;
+    width: 100%;
+}
+.realisation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 5rem;
+    gap: 2rem;
+    h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .lineB {
+        border-top: 4px solid #EF9595;;
+        width: 100%;
+    }
+    .work-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 5rem;
+    background-color: #f5f5f5;
+    gap: 2rem;
+    h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .skillTree {
+        p {
+            color: white;
+        }
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5rem;
+        .html {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: white;
+            height: 500px;
+            width: 50px;
+            .colorRed {
+                height: 80%;
+                background-color: #d9534f;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .stack {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: white;
+                    padding-bottom: 1rem;
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+        .css {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: white;
+            height: 500px;
+            width: 50px;
+            .colorBlue {
+                height: 80%;
+                background-color: #0f3658;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .stack {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: white;
+                    padding-bottom: 1rem;
+                    img {
+                        width: 45px;
+                    }
+                }
+            }
+        }
+        .js {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: white;
+            height: 500px;
+            width: 50px;
+            .colorYellow {
+                height: 70%;
+                background-color: #e8b361;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .stack {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: white;
+                    padding-bottom: 1rem;
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+        .react {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: white;
+            height: 500px;
+            width: 50px;
+            .colorReact {
+                height: 40%;
+                background-color: #337ab7;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .stack {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: white;
+                    padding-bottom: 1rem;
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+        .webflow {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background-color: white;
+            height: 500px;
+            width: 50px;
+            .colorLightBlue {
+                height: 60%;
+                background-color: #5399c8;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .stack {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: white;
+                    padding-bottom: 1rem;
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

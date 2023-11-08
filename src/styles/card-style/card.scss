@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    
+    .bod {
+        // border: solid 2px black;
+        
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        &:hover {
+            filter: blur(3px);
+            
+            ~ .description {
+                display: flex;
+            }
+        }
+    }
+    
+    .description {
+        color: white;
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+    }
+}

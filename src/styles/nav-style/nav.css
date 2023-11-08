@@ -1,0 +1,58 @@
+.navbar-container {
+  z-index: 1;
+  position: sticky;
+  padding: 1rem;
+  backdrop-filter: blur(21px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-container a {
+  text-decoration: none;
+}
+.navbar-container p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-container .navLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+.navbar-container .navLeft a {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: rgb(126, 126, 126);
+}
+.navbar-container .navLeft a:hover {
+  color: #EF9595;
+}
+.navbar-container .navLeft .navRightLeft {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+.navbar-container .navRight a {
+  cursor: pointer;
+  border: none;
+  padding: 10px 36px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 60px;
+  background-color: #EF9595;
+  transition: transform 525ms cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 450ms ease;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar-container .navRight a:hover {
+  color: #EF9595;
+  background-color: white;
+}
+
+/*# sourceMappingURL=nav.css.map */

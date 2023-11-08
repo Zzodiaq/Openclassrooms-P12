@@ -1,0 +1,197 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 5rem;
+  background-color: #f5f5f5;
+}
+.presentation h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.presentation p {
+  font-style: italic;
+  font-size: large;
+  width: 50%;
+  line-height: 4rem;
+}
+
+.line {
+  border-top: 4px solid white;
+  width: 100%;
+}
+
+.realisation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 5rem;
+  gap: 2rem;
+}
+.realisation h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.realisation .lineB {
+  border-top: 4px solid #EF9595;
+  width: 100%;
+}
+.realisation .work-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 5rem;
+  background-color: #f5f5f5;
+  gap: 2rem;
+}
+.skills h1 {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.skills .skillTree {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5rem;
+}
+.skills .skillTree p {
+  color: white;
+}
+.skills .skillTree .html {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  height: 500px;
+  width: 50px;
+}
+.skills .skillTree .html .colorRed {
+  height: 80%;
+  background-color: #d9534f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills .skillTree .html .colorRed .stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+.skills .skillTree .html .colorRed .stack img {
+  width: 50px;
+}
+.skills .skillTree .css {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  height: 500px;
+  width: 50px;
+}
+.skills .skillTree .css .colorBlue {
+  height: 80%;
+  background-color: #0f3658;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills .skillTree .css .colorBlue .stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+.skills .skillTree .css .colorBlue .stack img {
+  width: 45px;
+}
+.skills .skillTree .js {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  height: 500px;
+  width: 50px;
+}
+.skills .skillTree .js .colorYellow {
+  height: 70%;
+  background-color: #e8b361;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills .skillTree .js .colorYellow .stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+.skills .skillTree .js .colorYellow .stack img {
+  width: 40px;
+}
+.skills .skillTree .react {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  height: 500px;
+  width: 50px;
+}
+.skills .skillTree .react .colorReact {
+  height: 40%;
+  background-color: #337ab7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills .skillTree .react .colorReact .stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+.skills .skillTree .react .colorReact .stack img {
+  width: 50px;
+}
+.skills .skillTree .webflow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  height: 500px;
+  width: 50px;
+}
+.skills .skillTree .webflow .colorLightBlue {
+  height: 60%;
+  background-color: #5399c8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skills .skillTree .webflow .colorLightBlue .stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+.skills .skillTree .webflow .colorLightBlue .stack img {
+  width: 40px;
+}
+
+/*# sourceMappingURL=home.css.map */
