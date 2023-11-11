@@ -1,6 +1,13 @@
 .card {
   position: relative;
 }
+.card .stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+}
 .card .bod img {
   width: 100%;
   height: 100%;

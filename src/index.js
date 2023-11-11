@@ -7,10 +7,7 @@ import Nav from './components/Nav/nav.jsx';
 import Footer from './components/Footer/footer.jsx';
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Routes,
-  Navigate
+  RouterProvider
 } from "react-router-dom";
 const router = createBrowserRouter([
   {

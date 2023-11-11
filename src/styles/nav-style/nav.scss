@@ -37,6 +37,8 @@
         }
     }
     .navRight {
+        display: flex;
+        gap: 1rem;
         a {
             cursor: pointer;
             border: none;
@@ -53,6 +55,16 @@
         a:hover {
             color: #EF9595;
             background-color: white;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar-container {
+        .navLeft {
+            .navRightLeft {
+                display: none;
+            }
         }
     }
 }

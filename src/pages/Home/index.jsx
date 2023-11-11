@@ -25,8 +25,8 @@ function App() {
             <h1>MES TRAVAUX</h1>
             <div className='lineB'></div>
             <div className='work-container'>
-            {data.map((e) => {
-                return <Card src={e.src} link={e.link}/>;
+            {data.map((e, i) => {
+                return <Card key={i} src={e.src} link={e.link} desc={e.description}/>;
             })}
             </div>
         </div>

@@ -1,6 +1,12 @@
 .card {
     position: relative;
-    
+    .stack {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+    }
     .bod {
         // border: solid 2px black;
         

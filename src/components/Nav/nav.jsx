@@ -11,7 +11,7 @@ import '../../styles/nav-style/nav.css';
 function NavBar () {
 
     return (
-    <div class="navbar-container">
+    <div className="navbar-container" id='g'>
         <div className="navLeft">
             <p>ABIDI MOAD</p>
             <div className="navRightLeft">
@@ -22,6 +22,7 @@ function NavBar () {
         </div>
         <div className="navRight">
             <a href='#foot'>Contact</a>
+            <a href="#g">login</a>
         </div>
     </div>
     ) 

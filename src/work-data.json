@@ -2,26 +2,31 @@
     {
         "link" : "https://zzodiaq.github.io/password-generator/",
         "title" : "Password generator",
-        "src" : "https://github.com/Zzodiaq/images/blob/main/passgen.PNG?raw=true"
+        "src" : "https://github.com/Zzodiaq/images/blob/main/passgen.PNG?raw=true",
+        "description" : "Projet Password Generator : en HTML, CSS et JS : Création d'outils sécurisés et développement des compétences en programmation web (array, DOM)."
     },
     {
         "link" : "https://zzodiaq.github.io/Openclassrooms-P6/",
         "title" : "Sophie Bluel",
-        "src" : "https://github.com/Zzodiaq/images/blob/main/sophie.PNG?raw=true"
+        "src" : "https://github.com/Zzodiaq/images/blob/main/sophie.PNG?raw=true",
+        "description" : "Projet Sophie Bluel : Conception page présentation, création page admin et modale d'upload médias (JS, CSS) from scratch. Développement web complet, renforcement compétences HTML, CSS et JS."
     },
     {
         "link" : "https://zzodiaq.github.io/Openclassrooms-P5/",
         "title" : "Print it!",
-        "src" : "https://github.com/Zzodiaq/images/blob/main/print.PNG?raw=true"
+        "src" : "https://github.com/Zzodiaq/images/blob/main/print.PNG?raw=true",
+        "description" : "Projet PrintIt! : Correction code HTML, CSS et JS pour restaurer le fonctionnement du carrousel sur la page. Révision approfondie des langages web, résolution de problèmes techniques, amélioration des compétences en développement."
     },
     {
         "link" : "https://zzodiaq.github.io/Openclassrooms-P4/",
         "title" : "OhMyFood",
-        "src" : "https://github.com/Zzodiaq/images/blob/main/omy.PNG?raw=true"
+        "src" : "https://github.com/Zzodiaq/images/blob/main/omy.PNG?raw=true",
+        "description": "Projet OhMyFood : Développement d'un site répertoriant les menus de restaurants gastronomiques avec une approche responsive et mobile first. Intégration d'animations CSS élégantes, assurant une expérience utilisateur fluide et attractive. Maîtrise des techniques de conception web responsive et perfectionnement des compétences en animations CSS."
     },
     {
         "link" : "https://zzodiaq.github.io/Openclassrooms-P9/",
         "title" : "Nina Carducci Portfolio",
-        "src" : "https://github.com/Zzodiaq/images/blob/main/nina.PNG?raw=true"
+        "src" : "https://github.com/Zzodiaq/images/blob/main/nina.PNG?raw=true",
+        "description" : "Projet Nina Carducci : Amélioration du référencement en optimisant les images (réduction taille pour chargement rapide) et en optimisant le code et la structure du site pour une meilleure accessibilité. Réduction du temps de chargement, amélioration de l'expérience utilisateur et renforcement de la visibilité en ligne. Utilisation de Lighthouse et WAVE"
     }
 ]
